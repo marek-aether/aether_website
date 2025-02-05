@@ -1,7 +1,12 @@
-import { Inter } from 'next/font/google';
-import Provider from './provider';
-import Navbar from '../components/global/navbar';
+'use client';
+
 import { Flex } from '@chakra-ui/react';
+import { Inter } from 'next/font/google';
+import Footer from '../src/components/global/footer';
+import Navbar from '../src/components/global/navbar';
+import { UserProvider } from '../src/store/userStore';
+import Provider from './provider';
+import { Toaster } from '../src/components/ui/toaster';
 
 const inter = Inter({
 	subsets: ['latin'],
@@ -18,10 +23,17 @@ export default function RootLayout({
 			<head />
 			<body>
 				<Provider>
-					<Flex flexDir='column' bgColor='white'>
-						<Navbar />
-						{children}
-					</Flex>
+					<UserProvider>
+						<Flex
+							flexDir='column'
+							bgColor='brand.bgLight'
+							color='brand.textDark'>
+							<Toaster />
+							<Navbar />
+							{children}
+							<Footer />
+						</Flex>
+					</UserProvider>
 				</Provider>
 			</body>
 		</html>
