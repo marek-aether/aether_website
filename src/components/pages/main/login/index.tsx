@@ -234,7 +234,7 @@ const Login: FC<IProps> = ({ color }) => {
 							</Flex>
 						</Flex>
 						<Flex
-							bgImage='url(https://s3-alpha-sig.figma.com/img/5c68/d79c/61d4b85052f58eb6552f6a58e45df96a?Expires=1738540800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=DW46Ke2QX~bxvmomK9R1JXkUXLwSXXD8TQyi~0OTpuBJk3-L-I-bgUR46SSIvlJUSQDIaCSZEJdDqVXodYHQ99rBhhgBcq8crjW8MUwgXCoH2yNtD8KW7DGh8GEdNjDvCbYTQot6eWIO09mhyjfyyGjKPsj16L0tZaX1ysJvbxXQaRxN8yg0yGQOXyTNoQbjPtan0axAlkBdENVmXZnsaDr7OtuMjnGYQRaxS4-oOA2xtdDAW1f58rA8wVOf8FMr0~LPbtxTwxpZt6LcGf9fNzPwnYXR2ndznJ3Gkrejc5b8TKnQqR44x4pqfSW0~Ev01ZipqNTGWkAABnDlRzybAw__)'
+							bgImage='url(public/static/bg1.png)'
 							objectFit='cover'
 							objectPosition='center'
 							align='center'

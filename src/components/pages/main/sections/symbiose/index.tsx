@@ -43,7 +43,7 @@ const Symbiose = () => {
 							w='100%'
 							aspectRatio='21/9'
 							objectFit='cover'
-							src='https://s3-alpha-sig.figma.com/img/49ed/9411/25b8ba02ec0d942a4d5649fc13c7d896?Expires=1739750400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=I41sxCQgRrbiQd004cEJyw9QRmBh0XBi8r~jIeLY99tx~QDj2G5DGx9AlM2epQI3h1SJ0YVw9zfX8zVm97UMvXuNzn8YbWv1Wvo0do6twIP9A5J4wMbewRa8jBy-J78ePotrfAMipYwb~Ks4aVyjsm12mjrbIt~keMetZpwAxmByhPNBQyevWFYMCiS3wjMV7MKwagcPmvq4VoFuSlxh1S5mWs7s3axqbfvLtYI0gk2OF3d4-w0jGS0H~qs6nIdum-tOMtyvF17j6Y0ylpfRUCe2zhY8GK1TJt5ZazNF-YemMCwFqp234nQ6JU~egQ6pnCLazA9BlYJQ1vfRwGK0~g__'
+							src='public/static/bg2.png'
 						/>
 						<Flex flexDir='column' gap='24px'>
 							<Text fontSize='24px' fontWeight='500'>

@@ -65,7 +65,7 @@ export const SponsorUs = () => {
 					<Box
 						h='760px'
 						w='560px'
-						bgImage={`url(${'https://s3-alpha-sig.figma.com/img/3fdd/a185/142da9beb07ba43a9799a530061348b7?Expires=1739750400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=aQ1Zz7Gm3C4KIVrSpGlhHZ4jOnpN~2tlbpsQxiI5mFABHRleZS4bc37oeWqxHVu7wBzVr-RGtapftTLPHBM-Wqy0VKtG3f3mYOi7CdBvnQj1LgYCoZ2UGsaJxHN2AsnuIkzcy9gRTyZJ1fi0F2iMPMClSZejKCOhz9PAsr9eJpk4MN4lXgVraQF7aYxX8vOUMGVcPLIxPfFH3CwLGdQwkfUSvvt4gre5FCzm1GPL-w6G~WVNYmWnRYH0V0ec602LnjsDmLwuRft9vCs8B9Ktl4vQA8cflmisSnDHVcUhu3eQlv~I1OpwGmlIbAPVh3BP7XP0qPrkMbppJ1AmcZtIIw__'})`}
+						bgImage={`url(${'public/static/art1.png'})`}
 						bgPos='center'
 						bgSize='cover'
 					/>

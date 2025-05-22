@@ -20,7 +20,7 @@ const Header = () => {
 					loop
 					muted
 					playsInline
-					src='https://s3-figma-videos-production-sig.figma.com/video/TEAM/896522863236370506/3afba27e333b1cc06ce8fcf3c3805e171b073637?Expires=1739750400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=LRbsXd5q~EZKynaYICwnYDpHFs36GljeyQSmNrRqSS9eQ3rDOZFhmXTBZejDwPNeuAumJSLIRsT6wwDpwii2k8McQV~uXmn5AEPEcjLXmo38yt7cHJz0-nkf13RB5Tu5gI9aolG6x4MsslQR4DWaH3cA~me9hOA68kWF32K4T0voV3wMLjQ5EpjAk466lZCiUStfMkEUVu1Q5gUReW3Kgo5ltvcp7Ufupk-PjLb31JpIszsgBK~siNxJVr44brrYE2GFzs57Nz1ExXyMXMnoTpbMlvS3RaIRZnoHGWyVQWuZ5fb~anxlcDSBE5CDm10RnzCa7u2pDxKcC7~cX2hWFw__'
+					src='https://videos.pexels.com/video-files/1970039/1970039-hd_1920_1080_30fps.mp4'
 					style={{
 						position: 'absolute',
 						top: 0,
