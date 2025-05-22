@@ -1,4 +1,5 @@
 import { ContestApplicationFE } from '../../../components/pages/contest-form/types_fe';
+import { backendUrl } from '../../consts';
 import { PaymentStatus } from '../types_fe';
 
 export const createContestApplication = async (
@@ -8,7 +9,7 @@ export const createContestApplication = async (
 		paymentPrice: number;
 	}
 ) => {
-	const url = `http://localhost:8000/user/application/${id}`;
+	const url = `${backendUrl}/${id}`;
 
 	const resp = await fetch(url, {
 		method: 'PUT',

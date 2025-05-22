@@ -1,10 +1,12 @@
+import { backendUrl } from '../../consts';
+
 interface Req {
 	email: string;
 	password: string;
 }
 
 export const login = async (req: Req) => {
-	const url = 'http://localhost:8000/auth/login';
+	const url = `${backendUrl}/auth/login`;
 
 	const resp = await fetch(url, {
 		method: 'POST',

@@ -1,7 +1,8 @@
+import { backendUrl } from '../../consts';
 import { UserSchema } from '../types_fe';
 
 export const updateUser = async (id: string, req: Partial<UserSchema>) => {
-	const url = `http://localhost:8000/user/${id}`;
+	const url = `${backendUrl}/user/${id}`;
 
 	const resp = await fetch(url, {
 		method: 'PUT',

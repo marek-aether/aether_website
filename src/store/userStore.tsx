@@ -129,6 +129,7 @@ import {
 } from 'react';
 import { UserSchema } from '../services/api/types_fe';
 import { usePathname } from 'next/navigation';
+import { backendUrl } from '../services/consts';
 
 const UserContext = createContext<{
 	user: UserSchema | null | undefined;
@@ -141,10 +142,10 @@ interface IProps {
 
 export const UserProvider: FC<IProps> = ({ children }) => {
 	const [user, setUser] = useState<UserSchema | null | undefined>(null);
-	const pathname = usePathname()
+	const pathname = usePathname();
 
 	useEffect(() => {
-		fetch('http://localhost:8000/auth/me', { credentials: 'include' })
+		fetch(`${backendUrl}/auth/me`, { credentials: 'include' })
 			.then((res) => res.json())
 			.then((data) => {
 				if (!data.error) setUser(data.user);
