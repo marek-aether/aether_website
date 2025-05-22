@@ -29,7 +29,7 @@ const Contest = () => {
 					clipPath: 'polygon(100% 0, 100% 100%, 0 100%)',
 				}}>
 				<Image
-					src='public/static/bg2.png'
+					src='/static/bg2.png'
 					position='absolute'
 					top='220px'
 					w='62%'

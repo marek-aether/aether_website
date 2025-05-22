@@ -43,7 +43,7 @@ const Symbiose = () => {
 							w='100%'
 							aspectRatio='21/9'
 							objectFit='cover'
-							src='public/static/bg2.png'
+							src='/static/bg2.png'
 						/>
 						<Flex flexDir='column' gap='24px'>
 							<Text fontSize='24px' fontWeight='500'>

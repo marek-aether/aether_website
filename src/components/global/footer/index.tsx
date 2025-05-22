@@ -8,7 +8,7 @@ import { WidthWrapper } from '../../common/wrappers/widthWrapper';
 const brandLogos = [
 	<Image
 		key={1}
-		src='public/static/sponsor1.png'
+		src='/static/sponsor1.png'
 		alt=''
 		w='120px'
 		role='presentation'
@@ -16,7 +16,7 @@ const brandLogos = [
 
 	<Image
 		key={2}
-		src='public/static/sponsor2.png'
+		src='/static/sponsor2.png'
 		alt=''
 		h='60px'
 		role='presentation'
@@ -24,7 +24,7 @@ const brandLogos = [
 
 	<Image
 		key={3}
-		src='public/static/sponsor3.png'
+		src='/static/sponsor3.png'
 		alt=''
 		h='60px'
 		role='presentation'
@@ -32,7 +32,7 @@ const brandLogos = [
 
 	<Image
 		key={4}
-		src='public/static/sponsor4.png'
+		src='/static/sponsor4.png'
 		alt=''
 		h='60px'
 		role='presentation'
@@ -40,15 +40,15 @@ const brandLogos = [
 
 	<Image
 		key={5}
-		src='public/static/sponsor5.png'
+		src='/static/sponsor5.png'
 		alt=''
-		h='60px'
+		w='120px'
 		role='presentation'
 	/>,
 
 	<Image
 		key={6}
-		src='public/static/sponsor6.png'
+		src='/static/sponsor6.png'
 		alt=''
 		h='60px'
 		role='presentation'
@@ -56,7 +56,7 @@ const brandLogos = [
 
 	<Image
 		key={7}
-		src='public/static/sponsor7.png'
+		src='/static/sponsor7.png'
 		alt=''
 		h='60px'
 		role='presentation'

@@ -6,19 +6,19 @@ const sponsors = {
 	golden: [
 		<SponsorTile
 			key={'golden-1'}
-			imageUrl='public/static/bg2.png'
+			imageUrl='/static/bg2.png'
 			name='Pełna nazwa organizacji sponsorującej.'
 			description='Krótki, 1-2 zdaniowy opis sponsora i jego wsparcia (jeśli jest to pożądane). Może podkreślać wzajemne korzyści płynące ze sponsoringu.'
 		/>,
 		<SponsorTile
 			key={'golden-2'}
-			imageUrl='public/static/bg2.png'
+			imageUrl='/static/bg2.png'
 			name='Pełna nazwa organizacji sponsorującej.'
 			description='Krótki, 1-2 zdaniowy opis sponsora i jego wsparcia (jeśli jest to pożądane). Może podkreślać wzajemne korzyści płynące ze sponsoringu.'
 		/>,
 		<SponsorTile
 			key={'golden-3'}
-			imageUrl='public/static/bg2.png'
+			imageUrl='/static/bg2.png'
 			name='Pełna nazwa organizacji sponsorującej.'
 			description='Krótki, 1-2 zdaniowy opis sponsora i jego wsparcia (jeśli jest to pożądane). Może podkreślać wzajemne korzyści płynące ze sponsoringu.'
 		/>,
@@ -26,13 +26,13 @@ const sponsors = {
 	silver: [
 		<SponsorTile
 			key={'silver-1'}
-			imageUrl='public/static/bg2.png'
+			imageUrl='/static/bg2.png'
 			name='Pełna nazwa organizacji sponsorującej.'
 			description='Krótki, 1-2 zdaniowy opis sponsora i jego wsparcia (jeśli jest to pożądane). Może podkreślać wzajemne korzyści płynące ze sponsoringu.'
 		/>,
 		<SponsorTile
 			key={'silver-2'}
-			imageUrl='public/static/bg2.png'
+			imageUrl='/static/bg2.png'
 			name='Pełna nazwa organizacji sponsorującej.'
 			description='Krótki, 1-2 zdaniowy opis sponsora i jego wsparcia (jeśli jest to pożądane). Może podkreślać wzajemne korzyści płynące ze sponsoringu.'
 		/>,
@@ -40,37 +40,37 @@ const sponsors = {
 	bronze: [
 		<SponsorTile
 			key={'bronze-1'}
-			imageUrl='public/static/bg2.png'
+			imageUrl='/static/bg2.png'
 			name='Pełna nazwa organizacji sponsorującej.'
 			description='Krótki, 1-2 zdaniowy opis sponsora i jego wsparcia (jeśli jest to pożądane). Może podkreślać wzajemne korzyści płynące ze sponsoringu.'
 		/>,
 		<SponsorTile
 			key={'bronze-2'}
-			imageUrl='public/static/bg2.png'
+			imageUrl='/static/bg2.png'
 			name='Pełna nazwa organizacji sponsorującej.'
 			description='Krótki, 1-2 zdaniowy opis sponsora i jego wsparcia (jeśli jest to pożądane). Może podkreślać wzajemne korzyści płynące ze sponsoringu.'
 		/>,
 		<SponsorTile
 			key={'bronze-3'}
-			imageUrl='public/static/bg2.png'
+			imageUrl='/static/bg2.png'
 			name='Pełna nazwa organizacji sponsorującej.'
 			description='Krótki, 1-2 zdaniowy opis sponsora i jego wsparcia (jeśli jest to pożądane). Może podkreślać wzajemne korzyści płynące ze sponsoringu.'
 		/>,
 		<SponsorTile
 			key={'bronze-4'}
-			imageUrl='public/static/bg2.png'
+			imageUrl='/static/bg2.png'
 			name='Pełna nazwa organizacji sponsorującej.'
 			description='Krótki, 1-2 zdaniowy opis sponsora i jego wsparcia (jeśli jest to pożądane). Może podkreślać wzajemne korzyści płynące ze sponsoringu.'
 		/>,
 		<SponsorTile
 			key={'bronze-5'}
-			imageUrl='public/static/bg2.png'
+			imageUrl='/static/bg2.png'
 			name='Pełna nazwa organizacji sponsorującej.'
 			description='Krótki, 1-2 zdaniowy opis sponsora i jego wsparcia (jeśli jest to pożądane). Może podkreślać wzajemne korzyści płynące ze sponsoringu.'
 		/>,
 		<SponsorTile
 			key={'bronze-6'}
-			imageUrl='public/static/bg2.png'
+			imageUrl='/static/bg2.png'
 			name='Pełna nazwa organizacji sponsorującej.'
 			description='Krótki, 1-2 zdaniowy opis sponsora i jego wsparcia (jeśli jest to pożądane). Może podkreślać wzajemne korzyści płynące ze sponsoringu.'
 		/>,

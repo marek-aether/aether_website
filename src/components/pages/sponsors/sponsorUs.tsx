@@ -65,7 +65,7 @@ export const SponsorUs = () => {
 					<Box
 						h='760px'
 						w='560px'
-						bgImage={`url(${'public/static/art1.png'})`}
+						bgImage={`url(${'/static/art1.png'})`}
 						bgPos='center'
 						bgSize='cover'
 					/>

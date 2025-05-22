@@ -234,7 +234,7 @@ const Login: FC<IProps> = ({ color }) => {
 							</Flex>
 						</Flex>
 						<Flex
-							bgImage='url(public/static/bg1.png)'
+							bgImage='url(/static/bg1.png)'
 							objectFit='cover'
 							objectPosition='center'
 							align='center'
