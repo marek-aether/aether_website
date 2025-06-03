@@ -54,24 +54,27 @@ const Contest = () => {
 									fontSize='16px'
 									fontWeight='500'
 									color='brand.textSecondary'>
-									$300,000 dla Najlepszych Artystów
+									EUR 125,000 for Top Artists
 								</Text>
 								<Text
 									fontSize='62px'
 									fontWeight='500'
 									color='brand.textLight'
 									lineHeight='100%'>
-									Weź udział w Konkursie Aether Art
+									Enter the 2025 Aether Art Prize Competition
 								</Text>
 							</Flex>
 							<Flex flexDir='column'>
 								<Text fontSize='16px' fontWeight='500' color='brand.textLight'>
-									TERMIN ZGŁOSZENIA PRAC
+									DEADLINE FOR SUBMISSIONS
 								</Text>
 								<Text fontSize='62px' fontWeight='500' color='brand.textLight'>
-									24 Jun.
+									{/* 24 Jun.
 									<br />
-									2025
+									2025 */}
+									More Details
+									<br />
+									Coming Soon
 								</Text>
 							</Flex>
 						</Flex>
@@ -83,18 +86,18 @@ const Contest = () => {
 								fontWeight='500'
 								lineHeight='100%'
 								color='brand.textLight'>
-								Zapraszamy utalentowanych malarzy i grafików do udziału w Aether
-								Art Competition 2025.
+								We invite talented painters and graphic artists to participate
+								in the Aether Art Competition 2025.
 							</Text>
 							<Text fontSize='16px' color='#C3C3C3'>
-								Zgłoś swoje dzieło i zawalcz o jedną z nagród w rekordowym prize
-								poolu o wartości 300,000 USD! Odkryj nową przestrzeń dla swojej
-								sztuki i dołącz do międzynarodowej społeczności Aether Art.
+								Submit your work and compete for one of the prizes in the record
+								prize pool worth EUR 125,000! Discover a new space for your art
+								and join the international Aether Art community.
 							</Text>
 							<CTAButton
 								variant='filled'
 								onClick={() => router.push('/contest-form')}>
-								Zgłoś swój udział
+								Enter the Competition
 							</CTAButton>
 						</Flex>
 					</GridItem>

@@ -76,7 +76,10 @@ export const Countdown = () => {
 
 	return (
 		<Flex align='center' gap='24px'>
-			<Flex flexDir='column' align='center'>
+			<Text fontSize='24px' fontWeight='bolder'>
+				Details Coming Soon
+			</Text>
+			{/* <Flex flexDir='column' align='center'>
 				<Text fontSize='32px'>{time.days}</Text>
 				<Text fontSize='9px' color='brand.textSecondary'>
 					Days
@@ -102,7 +105,7 @@ export const Countdown = () => {
 				<Text fontSize='9px' color='brand.textSecondary'>
 					Seconds
 				</Text>
-			</Flex>
+			</Flex> */}
 		</Flex>
 	);
 };

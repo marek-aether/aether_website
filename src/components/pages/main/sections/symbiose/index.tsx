@@ -7,10 +7,10 @@ const Symbiose = () => {
 		<WidthWrapper>
 			<Flex w='100%' flexDir='column' pt='100px' pb='48px' textAlign='start'>
 				<Text fontSize='16px' fontWeight='500' color='brand.textSecondary'>
-					SZTUKA I TECHNOLOGIA:
+					Art and Technology:
 				</Text>
 				<Text fontSize='62px' fontWeight='500' lineHeight='100%'>
-					Harmonijna symbioza
+					Harmonious Symbiosis
 				</Text>
 			</Flex>
 			<Grid
@@ -22,18 +22,18 @@ const Symbiose = () => {
 				<GridItem>
 					<Flex flexDir='column' gap='16px'>
 						<Text fontSize='24px' fontWeight='500'>
-							W Aether Art Foundation otwieramy Artystom nowe możliwości przy
-							pomocy najnowszych technologii. Wierząc, że synergia ludzkiej
-							kreatywności i najnowszych technologii przyniesie rewolucyjne
-							zmiany w świecie sztuki.
+							At Aether Art, we open up new possibilities for Artists with the
+							help of the latest technologies. Believing that the synergy of
+							human creativity and the latest technologies will bring
+							revolutionary changes to the art world.
 						</Text>
 						<Text fontSize='24px' fontWeight='500'>
-							Rozwijamy projekty technologiczne
+							We are developing technological projects:
 						</Text>
 						<Text fontSize='16px'>
-							Blockchain nadający cyfrowe certyfikaty prawdziwym dziełom sztuki
-							- gwarantując ich oryginalność, akt własności i dostęp do
-							rozwiązań nowoczesnego handlu internetowego.
+							Blockchain giving digital certificates to real works of art -
+							guaranteeing their originality, act of ownership and access to
+							modern e-commerce solutions.
 						</Text>
 					</Flex>
 				</GridItem>
@@ -47,25 +47,24 @@ const Symbiose = () => {
 						/>
 						<Flex flexDir='column' gap='24px'>
 							<Text fontSize='24px' fontWeight='500'>
-								AI - służący do potwierdzania autentyczności dzieła, wyceniający
-								dzieło sztuki oraz pośredniczący w jego ofertowaniu na
-								ogólnoświatowym rynku.
+								AI used to confirm the authenticity of a work of art, valuing
+								the artwork and mediating its bidding on the global market.
 							</Text>
 							<Grid templateColumns='1fr 1fr' justifyItems='start' gap='20px'>
 								<Text fontSize='16px'>
-									Technologie służące do dziś rządom i korporacjom stają się
-									narzędziem w społeczności artystów i obywateli. Rozwój w tym
-									kierunku pozwoli zadbać o rozwój i popularyzację artystów w
-									zmieniającym się świecie.
+									Technologies still serving governments and corporations today
+									are becoming a tool in the artist and citizen community.
+									Developing in this direction will ensure the development and
+									popularisation of artists in a changing world.
 								</Text>
 								<Text fontSize='16px'>
-									Przyszłość post-work-society gdzie każdy zawód zostaje
-									systemowo zastępowany przez roboty i AI, zostawi przestrzeń
-									dla karier kreatywnych - już dzisiaj stwórzmy ją razem.
+									A post-work-society future where every profession is being
+									systematically replaced by robots and AI will leave space for
+									creative careers - let's create it together today.
 								</Text>
 							</Grid>
 						</Flex>
-						<CTAButton variant='outlined'>Dowiedz się więcej</CTAButton>
+						<CTAButton variant='outlined'>Learn more</CTAButton>
 					</Flex>
 				</GridItem>
 			</Grid>

@@ -73,7 +73,7 @@ const Footer = () => {
 			<Sponsors logos={brandLogos} />
 			<WidthWrapper>
 				<Newsletter />
-				<FooterLinks />
+				{/* <FooterLinks />
 				<Flex
 					flexDir='column'
 					gap='12px'
@@ -90,7 +90,7 @@ const Footer = () => {
 						wszelkich starań, aby odpowiadać tak szybko, jak to możliwe.
 						Dziękujemy za cierpliwość.
 					</Text>
-				</Flex>
+				</Flex> */}
 				<Flex
 					align='center'
 					justify='space-between'
@@ -99,17 +99,16 @@ const Footer = () => {
 					pb='120px'
 					fontSize='16px'>
 					<Text>
-						© {new Date().getFullYear()} Aether Art Foundation. Wszelkie prawa
-						zastrzeżone.
+						© {new Date().getFullYear()} Aether Art. All rights reserved.
 					</Text>
-					<Flex align='center' gap='40px' opacity='0.5'>
+					{/* <Flex align='center' gap='40px' opacity='0.5'>
 						<Link href='#' _hover={{ textDecoration: 'underline' }}>
 							Polityka prywatności
 						</Link>
 						<Link href='#' _hover={{ textDecoration: 'underline' }}>
 							Regulamin
 						</Link>
-					</Flex>
+					</Flex> */}
 				</Flex>
 			</WidthWrapper>
 			<AetherArtFooterLogo

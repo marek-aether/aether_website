@@ -65,16 +65,16 @@ const Header = () => {
 						w='50%'
 						gap='16px'>
 						<Text fontSize='24px'>
-							Sztuka w synergii z człowiekiem i technologią.
+							Art in Harmony with People and Technology
 						</Text>
 						<Text fontWeight='500' fontSize='94px' lineHeight='94px' mb='8px'>
-							Aether Art Foundation
+							Aether Art Prize 2025
 						</Text>
 						<CTAButton
 							variant='filled'
 							bgColor='brand.bgLight'
 							color='brand.textDark'>
-							Weź udział w konkursie
+							Submit Your Entry
 						</CTAButton>
 					</Flex>
 					<Flex
@@ -85,27 +85,27 @@ const Header = () => {
 						justify='space-between'
 						w='100%'>
 						<Flex gap='8px' flexDir='column' align='start'>
-							<Text
+							{/* <Text
 								fontWeight='300'
 								fontSize='14px'
 								letterSpacing='2px'
 								color='brand.textSecondary'>
 								01 APR - 31 JUN 2025
-							</Text>
+							</Text> */}
 							<Text fontSize='30px'>Art Competition 2025</Text>
 						</Flex>
-						<Flex gap='8px' flexDir='column' align='start'>
-							<Flex w='100%' justify='space-between' align='center'>
+						<Flex gap='8px' flexDir='column' align='center'>
+							<Flex w='100%' justify='space-between' gap='16px' align='center'>
 								<Text
 									fontWeight='300'
 									fontSize='14px'
 									letterSpacing='2px'
 									color='brand.textSecondary'>
-									Termin przyjęcia prac
+									Deadline for accepting works
 								</Text>
 								<Flex cursor='pointer' align='center'>
 									<Text fontSize='14px' textDecoration='underline'>
-										Zapisz się
+										Apply Now
 									</Text>
 									<ArrowLineUpRightIcon />
 								</Flex>

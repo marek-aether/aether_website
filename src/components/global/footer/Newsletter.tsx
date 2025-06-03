@@ -18,24 +18,23 @@ export const Newsletter = () => {
 					fontWeight='500'
 					color='brand.textLight'
 					lineHeight='100%'>
-					Otrzymuj najświeższe informacje ze świata sztuki!
+					Get the latest news from the art world!
 				</Text>
 			</Flex>
 			<Flex flexDir='column' gap='24px'>
 				<Text fontSize='16px' color='brand.textLight'>
-					Zapisz się do naszego newslettera, aby być na bieżąco z konkursem,
-					wystawami i innymi wydarzeniami organizowanymi przez Aether Art
-					Foundation.
+					Subscribe to our newsletter to keep up to date with the competition,
+					exhibitions and other events organised by Aether Art.
 				</Text>
 				<Flex gap='8px' align='center'>
 					<Input
-						placeholder='Podaj swój adres email'
+						placeholder='Enter your email address'
 						borderRadius='100px'
 						color='brand.textLight'
 						h='100%'
 					/>
 					<CTAButton variant='outlined' color='brand.textLight'>
-						Zapisz się
+						Sign up
 					</CTAButton>
 				</Flex>
 			</Flex>

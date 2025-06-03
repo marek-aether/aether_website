@@ -11,17 +11,20 @@ const About = () => {
 					<Flex flexDir='column' gap='40px' textAlign='start'>
 						<AetherArtPlusIcon height='125px' width='100px' />
 						<Text fontSize='62px' fontWeight='500' lineHeight='100%' mt='-40px'>
-							Odkrywamy nowe horyzonty w sztuce
+							We discover new horizons in art
 						</Text>
 						<Text fontSize='16px'>
-							Aether Art Foundation to innowacyjna organizacja, która łączy
-							świat sztuki z najnowszymi technologiami. Wierzymy, że sztuka i
-							technologia mogą współistnieć w harmonii, wzajemnie się inspirując
-							i otwierając nowe możliwości dla twórców i odbiorców.
+							Aether Art is an innovative organisation that connects the world
+							of art with the latest technologies. We believe that art and
+							technology can coexist in harmony, inspiring each other and
+							opening up new possibilities for creators and audiences.
 							<br />
 							<br />
-							Naszą misją jest wspieranie artystów, promowanie sztuki
-							współczesne, otwieranie nowych możliwości w erze cyfrowej.
+							Our mission is to support artists, promote contemporary art and
+							open up new possibilities in the digital age. We organise an
+							international competition for painters and printmakers with a
+							prize pool of EUR 125 000, as well as exhibitions, education and
+							research activities.
 						</Text>
 					</Flex>
 				</GridItem>
@@ -32,19 +35,19 @@ const About = () => {
 							textAlign='start'
 							fontSize='16px'
 							fontWeight='500'>
-							<Text color='brand.textSecondary'>NAGRODA GŁÓWNA</Text>
+							<Text color='brand.textSecondary'>Prize pool</Text>
 							<Text fontSize='62px' fontWeight='500' lineHeight='100%'>
-								300,000 USD
+								125,000 EUR
 							</Text>
 							<Text marginTop='16px'>
-								Organizujemy prestiżowy, międzynarodowy konkurs dla malarzy i
-								grafików z pulą nagród 300,000 USD, a także prowadzimy
-								działalność wystawie
+								We are organizing an inclusive international competition for
+								painters and graphic artists from Europe with a prize pool of
+								125,000 EUR.
 							</Text>
 						</Flex>
 						<Flex align='center' gap='8px'>
-							<CTAButton variant='filled'>Przycisk CTA</CTAButton>
-							<CTAButton variant='outlined'>Dowiedz się więcej</CTAButton>
+							<CTAButton variant='filled'>Apply Now</CTAButton>
+							<CTAButton variant='outlined'>Learn more</CTAButton>
 						</Flex>
 					</Flex>
 				</GridItem>
