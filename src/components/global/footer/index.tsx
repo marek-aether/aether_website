@@ -1,9 +1,8 @@
-import { Flex, Image, Link, Text } from '@chakra-ui/react';
+import { Flex, Image, Text } from '@chakra-ui/react';
 import { AetherArtFooterLogo } from '../../common/icons/AetherArtFooterLogo';
-import Sponsors from './Sponsors';
-import { Newsletter } from './Newsletter';
-import { FooterLinks } from './FooterLinks';
 import { WidthWrapper } from '../../common/wrappers/widthWrapper';
+import { Newsletter } from './Newsletter';
+import Sponsors from './Sponsors';
 
 const brandLogos = [
 	<Image

@@ -1,78 +1,78 @@
 'use client';
 
 import { Flex, Text } from '@chakra-ui/react';
-import React, { useEffect, useState } from 'react';
+// import React, { useEffect, useState } from 'react';
 
-interface ITime {
-	days: number;
-	hours: number;
-	minutes: number;
-	seconds: number;
-}
+// interface ITime {
+// 	days: number;
+// 	hours: number;
+// 	minutes: number;
+// 	seconds: number;
+// }
 
-const initTime = {
-	days: 0,
-	hours: 0,
-	minutes: 0,
-	seconds: 0,
-};
+// const initTime = {
+// 	days: 0,
+// 	hours: 0,
+// 	minutes: 0,
+// 	seconds: 0,
+// };
 
 export const Countdown = () => {
-	const [time, setTime] = useState<ITime>(initTime);
+	// const [time, setTime] = useState<ITime>(initTime);
 
-	useEffect(() => {
-		const timeDifference =
-			new Date('2025-07-31').getTime() - new Date().getTime();
+	// useEffect(() => {
+	// 	const timeDifference =
+	// 		new Date('2025-07-31').getTime() - new Date().getTime();
 
-		const initDays = Math.floor(timeDifference / 1000 / 60 / 60 / 24);
-		const initHours = Math.floor(timeDifference / 1000 / 60 / 60) % 60;
-		const initMinutes = Math.floor(timeDifference / 1000 / 60) % 60;
-		const initSeconds = Math.floor(timeDifference / 1000) % 60;
+	// 	const initDays = Math.floor(timeDifference / 1000 / 60 / 60 / 24);
+	// 	const initHours = Math.floor(timeDifference / 1000 / 60 / 60) % 60;
+	// 	const initMinutes = Math.floor(timeDifference / 1000 / 60) % 60;
+	// 	const initSeconds = Math.floor(timeDifference / 1000) % 60;
 
-		setTime({
-			days: initDays,
-			hours: initHours,
-			minutes: initMinutes,
-			seconds: initSeconds,
-		});
-	}, []);
+	// 	setTime({
+	// 		days: initDays,
+	// 		hours: initHours,
+	// 		minutes: initMinutes,
+	// 		seconds: initSeconds,
+	// 	});
+	// }, []);
 
-	const countdown = (time: ITime) => {
-		const { days, hours, minutes, seconds } = time;
+	// const countdown = (time: ITime) => {
+	// 	const { days, hours, minutes, seconds } = time;
 
-		if (days <= 0 && hours <= 0 && minutes <= 0 && seconds <= 0) {
-			return time;
-		}
+	// 	if (days <= 0 && hours <= 0 && minutes <= 0 && seconds <= 0) {
+	// 		return time;
+	// 	}
 
-		const newSeconds = seconds - 1 < 0 ? 59 : seconds - 1;
-		const newMinutes =
-			newSeconds == 59 ? (minutes - 1 < 0 ? 59 : minutes - 1) : minutes;
-		const newHours =
-			newMinutes == 59 && newSeconds == 59
-				? hours - 1 < 0
-					? 23
-					: hours - 1
-				: hours;
-		const newDays =
-			newHours == 23 && newMinutes == 59 && newSeconds == 59 ? days - 1 : days;
+	// 	const newSeconds = seconds - 1 < 0 ? 59 : seconds - 1;
+	// 	const newMinutes =
+	// 		newSeconds == 59 ? (minutes - 1 < 0 ? 59 : minutes - 1) : minutes;
+	// 	const newHours =
+	// 		newMinutes == 59 && newSeconds == 59
+	// 			? hours - 1 < 0
+	// 				? 23
+	// 				: hours - 1
+	// 			: hours;
+	// 	const newDays =
+	// 		newHours == 23 && newMinutes == 59 && newSeconds == 59 ? days - 1 : days;
 
-		return {
-			seconds: newSeconds,
-			minutes: newMinutes,
-			hours: newHours,
-			days: newDays,
-		};
-	};
+	// 	return {
+	// 		seconds: newSeconds,
+	// 		minutes: newMinutes,
+	// 		hours: newHours,
+	// 		days: newDays,
+	// 	};
+	// };
 
-	useEffect(() => {
-		const interval = setInterval(() => {
-			setTime((prevTime) => countdown(prevTime));
-		}, 1000);
+	// useEffect(() => {
+	// 	const interval = setInterval(() => {
+	// 		setTime((prevTime) => countdown(prevTime));
+	// 	}, 1000);
 
-		return () => {
-			clearInterval(interval);
-		};
-	}, []);
+	// 	return () => {
+	// 		clearInterval(interval);
+	// 	};
+	// }, []);
 
 	return (
 		<Flex align='center' gap='24px'>

@@ -5,7 +5,6 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useEffect, useState } from 'react';
-import { useUser } from '../../../store/userStore';
 import { WidthWrapper } from '../../common/wrappers/widthWrapper';
 import { INavlink, Navlink } from './Navlink';
 
@@ -14,7 +13,7 @@ const Navbar = () => {
 
 	const [scrolling, setScrolling] = useState(false);
 
-	const { user } = useUser();
+	// const { user } = useUser();
 
 	useEffect(() => {
 		const handleScroll = () => {
