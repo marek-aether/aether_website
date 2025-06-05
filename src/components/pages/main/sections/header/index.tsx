@@ -20,7 +20,7 @@ const Header = () => {
 					loop
 					muted
 					playsInline
-					src='https://videos.pexels.com/video-files/1970039/1970039-hd_1920_1080_30fps.mp4'
+					src='/static/bgVideo.mp4'
 					style={{
 						position: 'absolute',
 						top: 0,

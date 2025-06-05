@@ -29,6 +29,7 @@ const Navbar = () => {
 		path !== '/login' && path !== '/' ? 'black' : scrolling ? 'black' : 'white';
 	const boxShadow = scrolling ? '0px 12px 12px 0px #0000000D;' : 'none';
 	const padding = scrolling ? '18px 36px' : '18px 0';
+	const logoUrl = scrolling ? '/static/logo.png' : '/static/logoWhite.png';
 
 	const navlinks: INavlink[] = [
 		{ textColor: textColor, href: '#', text: 'Art Competition 2025' },
@@ -59,12 +60,7 @@ const Navbar = () => {
 					transition='all 0.3s ease, box-shadow 0.3s ease'>
 					<Link href='/'>
 						{/* <AetherArtLogo width='140px' color={textColor} /> */}
-						<Image
-							src='/static/logo.png'
-							width={200}
-							height={60}
-							alt='AetherArt'
-						/>
+						<Image src={logoUrl} width={200} height={60} alt='AetherArt' />
 					</Link>
 					<Flex gap='45px' align='center'>
 						<Flex gap='32px' align='center'>
