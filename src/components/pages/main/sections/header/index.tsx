@@ -20,7 +20,7 @@ const Header = () => {
 					loop
 					muted
 					playsInline
-					src='/static/bgVideo.mp4'
+					src='/static/bgVideo.webm'
 					style={{
 						position: 'absolute',
 						top: 0,
